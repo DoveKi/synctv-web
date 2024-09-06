@@ -20,10 +20,6 @@ const menuLinks = computed(() => {
       to: "/"
     },
     {
-      name: "搜索",
-      to: "/search"
-    },
-    {
       name: "房间列表",
       to: "/rooms"
     }
@@ -93,7 +89,7 @@ const toUserInfo = () => {
     <nav class="flex mx-auto max-w-7xl items-center justify-between lg:px-8 p-4 lg:p-5 px-6">
       <div class="flex lg:flex-1">
         <img class="mr-2 w-6 h-6 bg-slate-500 rounded-md" :src="SyncTVLogo" />
-        <span class="-m-1.5 p-1.5 font-bold"> SyncTV </span>
+        <span class="-m-1.5 p-1.5 font-bold"> DoveTV </span>
       </div>
 
       <div class="flex lg:hidden items-center gap-4">
@@ -150,7 +146,7 @@ const toUserInfo = () => {
         v-show="mobileMenu"
       >
         <div class="flex items-center justify-between">
-          <span class="-m-1.5 p-1.5 font-bold"> SyncTV </span>
+          <span class="-m-1.5 p-1.5 font-bold"> DoveTV </span>
 
           <button
             type="button"

@@ -5,7 +5,7 @@ import { ROLE } from "@/types/User";
 import { userStore } from "@/stores/user";
 // import { indexStore } from "@/stores";
 
-const Base_Title = "SyncTV";
+const Base_Title = "DoveTV";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_BASEURL),

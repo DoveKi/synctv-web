@@ -12,9 +12,5 @@ import RoomList from "@/components/RoomList.vue";
       </RoomList>
     </div>
     <br />
-    <p>
-      &copy; Copyright {{ new Date().getFullYear() }}
-      <a href="https://github.com/synctv-org" target="_blank">SyncTV</a> all right reserved
-    </p>
   </div>
 </template>
