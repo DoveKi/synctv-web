@@ -80,11 +80,6 @@ onMounted(() => {
         以访客身份加入
       </button>
       <button v-else class="btn my-[10px]" @click="joinRoom(formData)">加入</button>
-      <div class="text-sm">
-        <b>注意：</b>所有输入框最大只可输入32个字符
-        <br />
-        如果你是该房间所有者，则无需输入密码
-      </div>
     </form>
   </div>
 </template>

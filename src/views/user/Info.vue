@@ -54,14 +54,6 @@ const tabs: Tabs[] = [
   {
     name: "我的房间",
     component: RoomList
-  },
-  {
-    name: "平台绑定",
-    component: Platforms
-  },
-  {
-    name: "账户绑定",
-    component: Account
   }
 ];
 
@@ -128,11 +120,6 @@ onMounted(() => {});
             <el-popconfirm title="确定登出？" @confirm="logout">
               <template #reference>
                 <button class="btn w-full mb-3">退出登录</button>
-              </template>
-            </el-popconfirm>
-            <el-popconfirm title="注销后，你的所有数据将会被清除" @confirm="logoff">
-              <template #reference>
-                <button class="btn btn-error w-full">注销账号</button>
               </template>
             </el-popconfirm>
           </div>

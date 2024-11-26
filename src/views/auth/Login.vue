@@ -179,7 +179,6 @@ onMounted(async () => {
         required
       />
       <br />
-      <div class="text-sm"><b>注意：</b>所有输入框最大只可输入32个字符</div>
       <div>
         <input class="w-auto" type="checkbox" v-model="savePwd" />
         <label title="明文保存到本机哦~">&nbsp;记住密码</label>

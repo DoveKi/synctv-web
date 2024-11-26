@@ -83,12 +83,8 @@ const operateRoom = async () => {
         autocomplete="new-password"
       />
       <br />
-      <div>
-        <input class="w-auto" type="checkbox" v-model="formData.settings.hidden" />
-        <label title="不显示在房间列表">&nbsp;是否隐藏此房间</label>
-      </div>
       <button class="btn m-[10px]" @click="operateRoom()">创建房间</button>
-      <div class="text-sm"><b>注意：</b>所有输入框最大只可输入32个字符</div>
+      <div class="text-sm"><b>注意：</b>只有尊贵的DoveKi能创建房间🐱</div>
     </form>
   </div>
 </template>

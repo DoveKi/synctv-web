@@ -454,7 +454,7 @@ onMounted(async () => {
           <small>👁‍🗨 {{ room.peopleNum }} </small>
         </div>
         <div class="card-title flex flex-wrap justify-between max-sm:text-sm" v-else>
-          当前没有影片播放，快去添加几部吧~<small class="font-normal"
+          主播还在摸鱼，快去叫他开播吧~<small class="font-normal"
             >👁‍🗨 {{ room.peopleNum }}
           </small>
         </div>

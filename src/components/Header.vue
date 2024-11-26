@@ -18,10 +18,6 @@ const menuLinks = computed(() => {
     {
       name: "首页",
       to: "/"
-    },
-    {
-      name: "房间列表",
-      to: "/rooms"
     }
   ];
   let links = [
@@ -59,10 +55,6 @@ const menuLinks = computed(() => {
           }
         ]
       : [
-          {
-            name: "加入房间",
-            to: "/joinRoom"
-          },
           {
             name: "创建房间",
             to: "/createRoom"
